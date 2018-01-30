@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: lightgreen;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 98vw;
+    padding: 1vw;
+    background-color: rgba(	25,25,112, .8) ;
+    color: white;
+}
+.header > h4 {
+    margin: 0;
+}
+.headerNav > a {
+    color: white;
+    padding: 5px;
+    border-style: double;
+}
+.content {
+    margin-top: 40px;
+}
+#home {
+    background-color: red;
+}
+#aboutMe {
+    background-color: orange;
+}
+#education {
+    background-color: yellow;
+}
+#career {
+    background-color: green;
+}
+#hobbies {
+    color: white;
+    background-color: blue;
+}
+#contact {
+    background-color: violet;
+}
